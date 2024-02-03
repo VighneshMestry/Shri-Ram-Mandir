@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "292903986277",
+    "project_id": "shri-ram-mandir",
+    "storage_bucket": "shri-ram-mandir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292903986277:android:ff9f4904a5f057d581128c",
+        "android_client_info": {
+          "package_name": "com.example.shri_ram_mandir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQfGROjOMoBNDJmrr8qOMA_qFkf9jPo2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
