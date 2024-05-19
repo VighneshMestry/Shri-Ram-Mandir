@@ -138,35 +138,29 @@ class _EventUploadScreenState extends ConsumerState<EventUploadScreen> {
                         )
                       : GestureDetector(
                           onTap: selectBannerImage,
-                          child: DottedBorder(
-                            borderType: BorderType.RRect,
-                            radius: const Radius.circular(10),
-                            dashPattern: const [10, 4],
-                            strokeCap: StrokeCap.round,
-                            child: Container(
-                              width: double.infinity,
-                              height: 150,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  const Icon(
-                                    Icons.folder_open_outlined,
-                                    size: 40,
-                                  ),
-                                  const SizedBox(
-                                    height: 10,
-                                  ),
-                                  Text(
-                                    'Select Event Images',
-                                    style: TextStyle(
-                                        fontSize: 15,
-                                        color: Colors.grey.shade400),
-                                  )
-                                ],
-                              ),
+                          child: Container(
+                            width: double.infinity,
+                            height: 150,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                const Icon(
+                                  Icons.folder_open_outlined,
+                                  size: 40,
+                                ),
+                                const SizedBox(
+                                  height: 10,
+                                ),
+                                Text(
+                                  'Select Event Images',
+                                  style: TextStyle(
+                                      fontSize: 15,
+                                      color: Colors.grey.shade400),
+                                )
+                              ],
                             ),
                           ),
                         ),
